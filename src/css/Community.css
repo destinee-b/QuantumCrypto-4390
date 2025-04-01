@@ -34,7 +34,7 @@
 }
 
 .feed {
-  width: 55%;
+  width: 60%;
   background-color: var(--sec);
   padding: 20px;
   border-radius: 10px;
@@ -141,7 +141,6 @@
   display: flex;
   justify-content: space-around;
   margin: 20px 0;
-  border-bottom: 1px solid var(--btn-bdr);
 }
 
 .tab {
@@ -180,6 +179,10 @@
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+}
+
+.post-header p {
+  color: white;
 }
 
 .profile-picture {

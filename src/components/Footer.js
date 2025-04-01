@@ -1,5 +1,5 @@
 import '../css/Footer.css';
-import logo from '../images/Logo.png';
+import logo from '../images/logo.png';
 import React from 'react';
 
 function Footer() {
@@ -12,14 +12,14 @@ function Footer() {
                 <div className="footer-links">
                     <ul>
                         <li><a href="Community">Marketplace</a></li>
-                        <li><a href="NFTs">NFTs</a></li>
+                        <li><a href="./nfts/nft-home.html">NFTs</a></li>
                         <li><a href="Raffles">Raffles</a></li>
 
                     </ul>
                     <ul>
-                    <li><a href="About_Us">About Us</a></li>
+                        <li><a href="About_Us">About Us</a></li>
                         <li><a href="News">News</a></li>
-                        <li><a href="Tax_Guide">Tax Guide</a></li>
+                        <li><a href="TaxGuide">Tax Guide</a></li>
                     </ul>
                     <ul>
                     </ul>

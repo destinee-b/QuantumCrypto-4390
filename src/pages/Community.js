@@ -7,19 +7,6 @@ function Community() {
   const [activeTab, setActiveTab] = useState('For You');
 
   return (
-    <div className="community-container">
-      <aside className="sidebar">
-        <h2>Community</h2>
-        <ul>
-          <li>Feed</li>
-          <li>Topics</li>
-          <li>Lives</li>
-          <li>Articles</li>
-          <li>Notifications</li>
-          <li>My Page</li>
-          <li>More</li>
-        </ul>
-      </aside>
       <section className="feed">
         <h2>Feed</h2>
         <div className="post-thoughts">
@@ -87,23 +74,6 @@ function Community() {
           )}
         </div>
       </section>
-      <aside className="right-panel">
-        <div className="live-streams">
-          <h3>Live Streams</h3>
-          <ul>
-            <li>Weekly Crypto Forecast</li>
-          </ul>
-        </div>
-        <div className="trends">
-          <h3>Trends</h3>
-          <ul>
-            <li>#Airdrop</li>
-            <li>#CZ</li>
-            <li>#Macro Insights</li>
-          </ul>
-        </div>
-      </aside>
-    </div>
   );
 }
 

@@ -29,6 +29,11 @@
     align-items: center;
   }
 
+  header img {
+    width: 100px;
+    height: 100px;
+  }
+
   
   header img:hover {
     opacity: 0.65;

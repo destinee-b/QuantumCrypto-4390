@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Crypto - NFT Homepage</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .nft-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #2b2b2b;
+        }
+
+        .nft-header img {
+            height: 110px;
+        }
+
+        .nft-nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        .nft-main-container {
+            padding: 20px 50px;
+            flex: 1;
+        }
+
+        .penguin-intro-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .penguin-intro-text {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            width: 30%;
+        }
+
+        .penguin-intro-text h2 {
+            margin: 0 0 10px;
+        }
+
+        .penguin-intro-text p {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .penguin-intro-text a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .penguin-intro-text .marketplace-btn {
+            background-color: #9DBEBB;
+        }
+
+        .penguin-intro-text .drops-btn {
+            background-color: #555;
+        }
+
+        .penguin-banner {
+            width: 65%;
+            border-radius: 10px;
+        }
+
+        .penguin-content-section {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .penguin-list-container {
+            width: 48%;
+            background-color: #9DBEBB;
+            border-radius: 10px;
+            padding: 20px;
+            position: relative; 
+        }
+
+        .penguin-list-container ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .penguin-list-container ul li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .penguin-list-container ul li img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+
+        .penguin-list-container a.section-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+            text-align: center;
+            cursor: pointer;
+            background: linear-gradient(45deg, #468189, #77a3a5, #031926);
+        }
+
+        .penguin-list-container .arrow {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            font-size: 20px;
+            color: #333;
+            cursor: pointer;
+        }
+
+        .nft-footer {
+            background-color: #2b2b2b;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: auto;
+        }
+
+        .nft-footer img {
+            height: 105px;
+        }
+
+        .nft-footer-nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header class="nft-header">
+        <img src="/images/logo.png" alt="Quantum Crypto Logo">
+        <nav class="nft-nav">
+            <a href="#">Top News</a>
+            <a href="#">Community</a>
+            <a href="#">NFTs</a>
+        </nav>
+    </header>
+    <div class="nft-main-container">
+        <div class="penguin-intro-section">
+            <div class="penguin-intro-text">
+                <h2>What are NFTs?</h2>
+                <p>NFTs are an evolution in blockchain-based assets, moving beyond cryptocurrencies, stablecoins, governance tokens, and utility tokens to provide users a new kind of digital asset with innovative models of ownership and distribution.</p>
+                <a class="marketplace-btn" href="/nfts/nft-marketplace.html">Marketplace</a>
+                <a class="drops-btn" href="/nfts/nft-upcoming.html">Drops</a>
+            </div>
+            <img class="penguin-banner" src="/images/penguins-header.jpg" alt="NFT Banner">
+        </div>
+        <div class="penguin-content-section">
+            <div class="penguin-list-container">
+                <a class="section-btn" href="/nfts/nft-marketplace.html">Trending</a>
+                <ul>
+                    <li><a href="/product-page.html"><img src="/images/penguin-drop1.png" alt="Icon"> Pudgy Penguin #4636</a></li>
+                    <li><a href="/product-page.html"><img src="/images/penguin-drop2.jpg" alt="Icon"> Pudgy Penguins Girls #8549</a></li>
+                    <li><a href="/product-page.html"><img src="/images/penguin-drop3.jpg" alt="Icon"> Pudgy Penguins Girls #1933</a></li>
+                    <li><a href="/product-page.html"><img src="/images/penguindrop-4.png" alt="Icon"> Pudgy Penguin #3492</a></li>
+                </ul>
+                <div class="arrow">→</div>
+            </div>
+            <div class="penguin-list-container">
+                <a class="section-btn" href="/nfts/nft-upcoming.html">Upcoming Drops</a>
+                <ul>
+                    <li><a href="/product-page.html"><img src="/images/penguin-drop1.png" alt="Icon"> Pudgy Penguin #4636</a></li>
+                    <li><a href="/product-page.html"><img src="/images/penguin-drop2.jpg" alt="Icon"> Pudgy Penguins Girls #8549</a></li>
+                    <li><a href="/product-page.html"><img src="/images/penguin-drop3.jpg" alt="Icon"> Pudgy Penguins Girls #1933</a></li>
+                    <li><a href="/product-page.html"><img src="/images/penguindrop-4.png" alt="Icon"> Pudgy Penguin #3492</a></li>
+                </ul>
+                <div class="arrow">→</div>
+            </div>
+        </div>
+    </div>
+    <footer class="nft-footer">
+        <img src="/images/logo.png" alt="Quantum Crypto Logo">
+        <nav class="nft-footer-nav">
+            <a href="#">Community</a>
+            <a href="#">NFTs</a>
+            <a href="#">Marketplace</a>
+            <a href="#">Raffles</a>
+            <a href="#">About Us</a>
+            <a href="#">News</a>
+            <a href="#">Tax Guide</a>
+        </nav>
+    </footer>
+</body>
+</html>

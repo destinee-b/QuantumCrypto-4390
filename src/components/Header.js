@@ -1,5 +1,5 @@
 import '../css/Header.css';
-import logo from '../images/Logo.png';
+import logo from '../images/logo.png';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -12,7 +12,7 @@ function Header() {
                 </Link>
                 <ul>
                     <li><a href="Community">Community</a></li>
-                    <li><a href="NFTs">NFTs</a></li>
+                    <li><a href="/nfts/nft-home.html">NFTs</a></li>
                     <li><Link to="/tax-guide">Tax Guide</Link></li>
                     <li><Link to="/graph">Graph</Link></li> {/* New link */}
                 </ul>
