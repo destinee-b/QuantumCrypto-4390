@@ -8,19 +8,19 @@
     background-color: var(--main);
   }
 
-  /* Margin for header spacing */
+ 
   header {
     margin: 20px;
   }
   
-  /* Adding flexbox to center the navbar */
+  
   .nav-bar {
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
-  /* Aligning navbar elements */
+  
   .nav-bar ul {
     margin: 20px;
     list-style: none;
@@ -29,24 +29,24 @@
     align-items: center;
   }
 
-  /* Changing logo style on hover */
+  
   header img:hover {
     opacity: 0.65;
   }
   
-  /* Styling navbar links */
+  
   .nav-bar li a {
     padding: 20px;
     text-decoration: none;
     color: var(--main-txt);
   }
   
-  /* Changing link style on hover */
+  
   .nav-bar li a:hover {
     color: var(--btn-bdr)
   }
   
-  /* Styling the navbar button */
+  
   .nav-bar button {
     width: 120px;
     height: 50px;
@@ -58,7 +58,7 @@
     color: var(--main-txt);
   }
   
-  /* Changing button style on hover */
+  
   .nav-bar button:hover {
     background-color: var(--btn-bdr);
     color: var(--main-txt);
